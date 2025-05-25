@@ -10,6 +10,7 @@ plugins=('Litespeed cache'
 "SpeedyCache Pro"
 "Elementor Pro"
 "Wordfence"
+"WPS Hide Login"
 "Really simple SSL"
 "Anti-Malware Security"
 "Redis cache"
@@ -53,6 +54,7 @@ while true; do
             "SpeedyCache Pro") install_and_activate_plugin "https://tainguyenwp.azdigi.com/WordPress-Plugins-Other/speedycache-pro.zip" ;;
             "Elementor Pro") install_and_activate_plugin "https://tainguyenwp.azdigi.com/WordPress-Plugins-Other/elementor-pro-3.28.2.zip" ;;
             "Wordfence") install_and_activate_plugin wordfence ;;
+            "WPS Hide Login" install_and_activate_plugin wps-hide-login ;;
             "Really simple SSL") install_and_activate_plugin really-simple-ssl ;;
             "Anti-Malware Security") install_and_activate_plugin gotmls ;;
             "Redis cache") install_and_activate_plugin redis-cache ;;
