@@ -47,7 +47,7 @@ install_and_activate_theme() {
 while true; do
     # Hiển thị menu chọn lựa
     echo "0) Thoát"
-    PS3="Chọn plugin để cài đặt (hoặc 0 để thoát): "
+    PS3="Chọn plugin để cài đặt (Nhấn 0 để Thoát): "
     select plugin_name in "${plugins[@]}"; do
         case $REPLY in
             0) echo "Thoát chương trình.";
