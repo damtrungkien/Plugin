@@ -13,7 +13,6 @@ plugins=('Litespeed cache'
 "WPS Hide Login"
 "Really simple SSL"
 "Anti-Malware Security"
-"All-In-One Security (AIOS)"
 "Redis cache"
 "Better search replace"
 "Query monitor"
@@ -62,7 +61,6 @@ while true; do
             "WPS Hide Login") install_and_activate_plugin wps-hide-login ;;
             "Really simple SSL") install_and_activate_plugin really-simple-ssl ;;
             "Anti-Malware Security") install_and_activate_plugin gotmls ;;
-            "All-In-One Security (AIOS)" install_and_activate_plugin all-in-one-wp-security-and-firewall ;;
             "Redis cache") install_and_activate_plugin redis-cache ;;
             "Better search replace") install_and_activate_plugin better-search-replace ;;
             "Query monitor") install_and_activate_plugin query-monitor ;;
